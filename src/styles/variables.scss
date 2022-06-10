@@ -1,0 +1,142 @@
+@import "button";
+body {
+  height: 100vh;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  background: #F1F5FC;
+  user-select: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #303030;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+input{
+  outline: none;
+  border: none;
+}
+html {
+  height: 100vh;
+  box-sizing: border-box;
+}
+p {
+  margin: 0;
+}
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  height: 100vh;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+.clx:before,
+.clx:after {
+  content: "";
+  display: table;
+}
+.clx:after {
+  clear: both;
+}
+.clx {
+  *zoom: 1;
+}
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+.m20{
+  margin: 20px 0;
+}
+.block{
+  display: block;
+}
+
+@mixin scrollbar($thumb){
+  &::-webkit-scrollbar {
+    opacity: 0;
+    width: 6px;
+    height: 6px;
+    background-color: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    opacity: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: $thumb;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+  }
+}
+
+.line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: #fff;
+  box-shadow: 0 0 2px rgba(0,0,0,.2);
+  z-index: 10;
+  i{
+    display: inline-block;
+    background: #cecece;
+  }
+}
