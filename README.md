@@ -1,11 +1,12 @@
 <<<<<<< HEAD
-# testnew
+
+# xie-component
 
 > A Vue.js project
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
@@ -19,9 +20,10 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-=======
+# For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
 # conceptualization
 
 概念版
->>>>>>> 21d27956d3884fefe2c2569ff90c8de3c2ae2296
+
+> > > > > > > 21d27956d3884fefe2c2569ff90c8de3c2ae2296
