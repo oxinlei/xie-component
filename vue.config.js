@@ -5,5 +5,6 @@ module.exports={
         Data: `@import "~@/styles/variables.scss";`
       }
     }
-  },
+  },  
+  publicPath: './'
 }
